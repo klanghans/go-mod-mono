@@ -1,5 +1,6 @@
 package persistence
 
+// test comment
 type Memory struct {
 }
 
