@@ -18,6 +18,8 @@ func (m *MemoryFixture) Setup() {
 }
 
 func (m *MemoryFixture) TestCanWrite() {
-	persistence := persistence.NewMemory()
-	persistence = persistence
+	p := persistence.NewMemory()
+	cypher := p.Encrypt("plain")
+	m.AssertEqual("cypher", cypher)
+
 }
