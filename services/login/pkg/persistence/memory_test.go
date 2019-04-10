@@ -1,7 +1,7 @@
 package persistence_test
 
 import (
-	"github.com/klanghans/go-mod-mono/login/v2/pkg/persistence"
+	"github.com/klanghans/go-mod-mono/services/login/pkg/persistence"
 	"github.com/smartystreets/gunit"
 	"testing"
 )
